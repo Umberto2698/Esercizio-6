@@ -42,6 +42,8 @@ if (int1 === 8 || int2 === 8) {
   console.log("4) Uno dei due numeri è uguale a 8.");
 } else if (int1 - int2 === 8) {
   console.log("4) La loro sottrazione è uguale a 8.");
+} else if (int2 - int1 === 8) {
+  console.log("4) La loro sottrazione è uguale a 8.");
 } else if (int1 + int2 === 8) {
   console.log("4) La loro addizipone è uguale a 8.");
 } else {
