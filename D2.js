@@ -61,8 +61,7 @@ let totalShoppingCart = 45;
 if (totalShoppingCart > 50) {
   console.log(`5) Hai diritto alla spedizione gratuita! Saldo: ${totalShoppingCart}€`);
 } else {
-  totalShoppingCart = totalShoppingCart + 10;
-  console.log(`5) Saldo: ${totalShoppingCart}€`);
+  console.log(`5) Saldo: ${totalShoppingCart + 10}€`);
 }
 
 /* ESERCIZIO 6
@@ -75,17 +74,15 @@ if (totalShoppingCart > 50) {
   totalShoppingCart = totalShoppingCart - totalShoppingCart * 0.2;
   console.log(`6) Hai diritto alla spedizione gratuita! Saldo: ${totalShoppingCart}€`);
 } else {
-  totalShoppingCart = totalShoppingCart + 10;
   totalShoppingCart = totalShoppingCart - totalShoppingCart * 0.2;
-  console.log(`6) Saldo: ${totalShoppingCart}€`);
+  console.log(`6) Saldo: ${totalShoppingCart + 10}€`);
 }
 
 let totalShoppingCartBlackFriday = totalShoppingCart - totalShoppingCart * 0.2;
 if (totalShoppingCartBlackFriday > 50) {
   console.log(`6) Hai diritto alla spedizione gratuita! Saldo: ${totalShoppingCartBlackFriday}€`);
 } else {
-  totalShoppingCartBlackFriday = totalShoppingCartBlackFriday + 10;
-  console.log(`6) Saldo: ${totalShoppingCartBlackFriday}€`);
+  console.log(`6) Saldo: ${totalShoppingCartBlackFriday + 10}€`);
 }
 
 /* ESERCIZIO 7
