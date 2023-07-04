@@ -70,17 +70,6 @@ if (totalShoppingCart > 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
-//Qui applico lo sconto del 20% dopo aver visto se aggiungere la spedizione...
-if (totalShoppingCart > 50) {
-  totalShoppingCart = totalShoppingCart - totalShoppingCart * 0.2;
-  console.log(`6) Hai diritto alla spedizione gratuita! Saldo: ${totalShoppingCart}€`);
-} else {
-  totalShoppingCart = totalShoppingCart - totalShoppingCart * 0.2;
-  console.log(`6) Saldo: ${totalShoppingCart + 10}€`);
-}
-
-//Qui applico lo sconto del 20% prima di vedere se aggiungere la spedizione...
 let totalShoppingCartBlackFriday = totalShoppingCart - totalShoppingCart * 0.2;
 if (totalShoppingCartBlackFriday > 50) {
   console.log(`6) Hai diritto alla spedizione gratuita! Saldo: ${totalShoppingCartBlackFriday}€`);
